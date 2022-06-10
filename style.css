@@ -3,13 +3,13 @@
 
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-   }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+ }
 
-   body, html {
+   body {
     background: #eaeaea;
     font-family: 'Roboto', sans-serif;
   }
@@ -19,8 +19,77 @@
     width: 100vw;
     height: 100vh;
 
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: center;
+    
   }
 
+ .title-container {
+  font-size: 28px;
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+}
+
+.image-container {
+  text-align: center;
+  object-fit: contain;
+    
+}
+ .fig-container {
+  font-size: 12px;
+  text-align: center;
+} 
+
+.title-ingredients-container {
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+}
+
+.ingredients-container {
+  font-size: 16px;
+  line-height: 26px;
+  list-style-position: inside;
+  list-style-type: open;
+  margin: 10px;
+  padding: 20px;
+}
+
+.title-method-container {
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+}
+
+.method-container {
+  font-size: 16px;
+  line-height: 26px;
+  list-style-position: inside;
+  margin: 10px;
+  padding: 20px;
+} 
+
+.title-info-container {
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+
+}
+
+.info-container {
+  font-size: 16px;
+  margin: 10px;
+  padding: 20px;
+}
+
+.footer-container {
+  font-size: 12px;
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+}
